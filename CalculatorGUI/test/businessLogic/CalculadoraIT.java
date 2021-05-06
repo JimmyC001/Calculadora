@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package businessLogic;
 
 import org.junit.After;
@@ -12,10 +7,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Anabel
- */
 public class CalculadoraIT {
     
     public CalculadoraIT() {
@@ -102,4 +93,34 @@ public class CalculadoraIT {
         
     }
     
+    @Test
+    public void testFact(){
+        System.out.println("Factorial");
+        float a = 3F;
+        float expResult = 6F;
+        assertEquals(expResult,Calculadora.factor(a), 0.0);
+    }
+    
+    @Test
+    public void testSign(){
+        System.out.println("Signo");
+        float a = 3F;
+        float expResult = -3F;
+        assertEquals(expResult,Calculadora.signo(a), 0.0);
+    }
+    
+    @Test
+    public void testLog(){
+        System.out.println("Log");
+        float a = 1F;
+        float expResult = 0F;
+        assertEquals(expResult,Calculadora.log(a), 0.0);
+    }
+    
+    @Test
+    public void test10x(){
+        System.out.println("10x");
+        float a = 3F;
+        float expResult = 1000F;
+    }
 }
