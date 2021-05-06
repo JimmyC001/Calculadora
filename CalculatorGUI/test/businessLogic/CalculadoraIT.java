@@ -253,9 +253,99 @@ public class CalculadoraIT {
     @Test
     public void testMultiply() {
         System.out.println("multiply");
-        float a = 7F;
+        float a = 2F;
         float b = 2F;
-        float expResult = 14F;
+        float expResult = 4F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+    @Test
+     public void testMultiply1() {
+        System.out.println("multiply");
+        float a = 1F;
+        float b = 2F;
+        float expResult = 2F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+      public void testMultiply2() {
+        System.out.println("multiply");
+        float a = 10F;
+        float b = 2F;
+        float expResult = 20F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+      @Test
+       public void testMultiply3() {
+        System.out.println("multiply");
+        float a = 5F;
+        float b = 6F;
+        float expResult = 30F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+       @Test
+        public void testMultiply4() {
+        System.out.println("multiply");
+        float a = 7F;
+        float b = 5F;
+        float expResult = 35F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+        @Test
+         public void testMultiply5() {
+        System.out.println("multiply");
+        float a = 5F;
+        float b = 8F;
+        float expResult = 40F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    } 
+     @Test
+     public void testMultiply6() {
+        System.out.println("multiply");
+        float a = 9F;
+        float b = 9F;
+        float expResult = 81F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+      public void testMultiply7() {
+        System.out.println("multiply");
+        float a = 1F;
+        float b = 1F;
+        float expResult = 1F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+      @Test
+       public void testMultiply8() {
+        System.out.println("multiply");
+        float a = 6F;
+        float b = 6F;
+        float expResult = 36F;
+        float result = Calculadora.multiply(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+       @Test
+        public void testMultiply9() {
+        System.out.println("multiply");
+        float a = 4F;
+        float b = 2F;
+        float expResult = 8F;
         float result = Calculadora.multiply(a, b);
         assertEquals(expResult, result, 0.0);
         
