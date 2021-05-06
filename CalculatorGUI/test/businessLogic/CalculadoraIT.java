@@ -144,6 +144,108 @@ public class CalculadoraIT {
         assertEquals(expResult, result, 0.0);
         
     }
+     @Test
+    public void testSubstract1() {
+        System.out.println("substract");
+        float a = 5F;
+        float b = 2F;
+        float expResult = 3F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract2() {
+        System.out.println("substract");
+        float a = 1F;
+        float b = 1F;
+        float expResult = 0F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract3() {
+        System.out.println("substract");
+        float a = 5F;
+        float b = 1F;
+        float expResult = 4F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract4() {
+        System.out.println("substract");
+        float a = 6F;
+        float b = 5F;
+        float expResult = 1F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract5() {
+        System.out.println("substract");
+        float a = 20F;
+        float b = 10F;
+        float expResult = 10F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract6() {
+        System.out.println("substract");
+        float a = 6F;
+        float b = 3F;
+        float expResult = 3F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract7() {
+        System.out.println("substract");
+        float a = 8F;
+        float b = 1F;
+        float expResult = 7F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract8() {
+        System.out.println("substract");
+        float a = 8F;
+        float b = 5F;
+        float expResult = 3F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+     @Test
+    public void testSubstract9() {
+        System.out.println("substract");
+        float a = 40F;
+        float b = 10F;
+        float expResult = 30F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+    @Test
+    public void testSubstract10() {
+        System.out.println("substract");
+        float a = 50F;
+        float b = 45F;
+        float expResult = 5F;
+        float result = Calculadora.substract(a, b);
+        assertEquals(expResult, result, 0.0);
+        
+    }
+    
+    
 
     /**
      * Test of multiply method, of class Calculadora.
