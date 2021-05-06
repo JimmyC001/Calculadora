@@ -98,17 +98,17 @@ public class CalculadoraIT {
     public void testAdd7() {
         System.out.println("add");
         float a = 3F;
-        float b = 3F;
-        float expResult = 6F;
+        float b = 7F;
+        float expResult = 10F;
         float result = Calculadora.add(a, b);
         assertEquals(expResult, result, 0.0);
     }
      @Test
     public void testAdd8() {
         System.out.println("add");
-        float a = 6F;
+        float a = 10F;
         float b = 6F;
-        float expResult = 12F;
+        float expResult = 16F;
         float result = Calculadora.add(a, b);
         assertEquals(expResult, result, 0.0);
     }
@@ -121,15 +121,7 @@ public class CalculadoraIT {
         float result = Calculadora.add(a, b);
         assertEquals(expResult, result, 0.0);
     }
-     @Test
-    public void testAdd10() {
-        System.out.println("add");
-        float a = 3F;
-        float b = 4F;
-        float expResult = 7;
-        float result = Calculadora.add(a, b);
-        assertEquals(expResult, result, 0.0);
-    }
+
 
     /**
      * Test of substract method, of class Calculadora.
@@ -234,16 +226,7 @@ public class CalculadoraIT {
         assertEquals(expResult, result, 0.0);
         
     }
-    @Test
-    public void testSubstract10() {
-        System.out.println("substract");
-        float a = 50F;
-        float b = 45F;
-        float expResult = 5F;
-        float result = Calculadora.substract(a, b);
-        assertEquals(expResult, result, 0.0);
-        
-    }
+ 
     
     
 
@@ -323,9 +306,9 @@ public class CalculadoraIT {
      @Test
       public void testMultiply7() {
         System.out.println("multiply");
-        float a = 1F;
-        float b = 1F;
-        float expResult = 1F;
+        float a = 6F;
+        float b = -1F;
+        float expResult = -6F;
         float result = Calculadora.multiply(a, b);
         assertEquals(expResult, result, 0.0);
         
@@ -344,8 +327,8 @@ public class CalculadoraIT {
         public void testMultiply9() {
         System.out.println("multiply");
         float a = 4F;
-        float b = 2F;
-        float expResult = 8F;
+        float b = 1.5F;
+        float expResult = 6F;
         float result = Calculadora.multiply(a, b);
         assertEquals(expResult, result, 0.0);
         
@@ -404,5 +387,6 @@ public class CalculadoraIT {
         System.out.println("10x");
         float a = 3F;
         float expResult = 1000F;
+        assertEquals(expResult,Calculadora.potencia_10(a), 0.0);
     }
 }
