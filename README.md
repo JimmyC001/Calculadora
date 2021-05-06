@@ -1,2 +1,2 @@
 # Calculadora
-Lo de ingesorft laboratorio de pruebas
+Laboratorio de pruebas para el curso de Fundamentos de Ingenieria de Software
