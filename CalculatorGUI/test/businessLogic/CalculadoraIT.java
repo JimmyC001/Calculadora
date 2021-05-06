@@ -117,7 +117,7 @@ public class CalculadoraIT {
         System.out.println("add");
         float a = 30F;
         float b = 40F;
-        float expResult = 80F;
+        float expResult = 70F;
         float result = Calculadora.add(a, b);
         assertEquals(expResult, result, 0.0);
     }
