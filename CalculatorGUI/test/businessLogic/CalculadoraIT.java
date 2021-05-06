@@ -40,6 +40,96 @@ public class CalculadoraIT {
         float result = Calculadora.add(a, b);
         assertEquals(expResult, result, 0.0);
     }
+     @Test
+    public void testAdd1() {
+        System.out.println("add");
+        float a = 2F;
+        float b = 2F;
+        float expResult = 4F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd2() {
+        System.out.println("add");
+        float a = 4F;
+        float b = 4F;
+        float expResult = 8F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd3() {
+        System.out.println("add");
+        float a = 1F;
+        float b = 1F;
+        float expResult = 2F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd4() {
+        System.out.println("add");
+        float a = 6F;
+        float b = 6F;
+        float expResult = 12F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd5() {
+        System.out.println("add");
+        float a = 10F;
+        float b = 10F;
+        float expResult = 20F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd6() {
+        System.out.println("add");
+        float a = 9F;
+        float b = 9F;
+        float expResult = 18F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd7() {
+        System.out.println("add");
+        float a = 3F;
+        float b = 3F;
+        float expResult = 6F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd8() {
+        System.out.println("add");
+        float a = 6F;
+        float b = 6F;
+        float expResult = 12F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd9() {
+        System.out.println("add");
+        float a = 30F;
+        float b = 40F;
+        float expResult = 80F;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
+     @Test
+    public void testAdd10() {
+        System.out.println("add");
+        float a = 3F;
+        float b = 4F;
+        float expResult = 7;
+        float result = Calculadora.add(a, b);
+        assertEquals(expResult, result, 0.0);
+    }
 
     /**
      * Test of substract method, of class Calculadora.
